@@ -6,4 +6,5 @@
    <li>Criação do Scaffold: Estabeleça a estrutura básica do seu projeto para que tenha um início organizado.</li>
    <li>Repositório Git: Crie e organize um repositório para o projeto e garanta que o scaffold inicial esteja devidamente commitado.</li>
    <li>Desenvolvimento da Parte Estática: Comece a desenvolver a parte visual estática do seu website.</li>
+      oi
 </ul>
