@@ -1,10 +1,11 @@
-<h1> Projeto de Desenvolvimento Web</h1>
+<h1> Projeto da Creche Pokemon</h1>
 
-<h2>1. Primeira Fase –Vale 1 ponto (Prazo: 06/11): ❌</h2>
+<p> O projeto consiste em um e-commerce de venda de pokemons treinados para o competitivos, dos jogos de nintendo ds, 3ds e switch. Treinaremos os pokemons deixando-os com os EVs e IVs maximizados assim fazendo os treinadores quererem os compra-los para economizar tempo, não precisando eles proprios treinar os pokemons</p>
+
+<h2>Membros do Grupo:</h2>
    <ul>
-   <li><b>Definição do Tema:</b> Escolha um tema que motive o grupo. Esta é a base do seu projeto.</li>
-   <li><b>Criação do Scaffold:</b> Estabeleça a estrutura básica do seu projeto para que tenha um início organizado.</li>
-   <li><b>Repositório Git:</b> Crie e organize um repositório para o projeto e garanta que o scaffold inicial esteja devidamente commitado.</li>
-   <li><b>Desenvolvimento da Parte Estática:</b> Comece a desenvolver a parte visual estática do seu website.</li>
+      <li> Bianca Zatorre</li>
+      <li> Danrley da Silva</li>
+      <li> Marina Duarte</li>
+      <li> Mateus da Silva</li>
 </ul>
-oi
