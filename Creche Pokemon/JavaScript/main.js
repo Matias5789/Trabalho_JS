@@ -7,6 +7,10 @@ for (let i = 0; i < removeproduto.length; i++) {
     event.target.parentElement.parentElement.remove()
         updateTotal()
 }
+const qtdInput = document.getElementsByClassName("product-qtd-input")
+    for (let i = 0; qtdInput.length; i++) {
+        qtdInput[i].addEventListener("change", updateTotal)
+        
 function updateTotal() {
 let totalAmount = 0
 const produtoCarrinho = document.getElementsByClassName("cart-product")
