@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creche Pokemon</title>
+    <script defer src="JavaScript/main.js"></script>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="icon" href="imagens1/Poké_Ball_icon.svg.png">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="head"><h1>LOGO</h1></a>
+        <div class="cabeca"><img src="imagens1/basket2-fill.svg" height="50" width="50" alt=""></div>
+    </header>
+    <nav>
+        <ul>
+            <li class="barra negrito"><a class="nav" href="index.html">Home</a></li>
+            <li class="barra negrito"><a class="nav" href="pokemon.html">Pokemon</a></li>
+            <li class="barra negrito"><a class="nav" href="quem_somos.html">Quem somos</a></li>
+            <li class="barra negrito"><a class="nav" href="">Pacotes</a></li>
+            <li class="barra negrito"><a class="nav" href="times.html">Times completos</a></li>
+            <li><a class="nav negrito" href="">Itens</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="titulo">Cesta de Compras</h2>
+        <section class="cart">
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th class="table-head-iten first-col">
+                        item
+                    </th>
+                    <th class="table-head-iten second-col">
+                        preço
+                    </th>
+                    <th class="table-head-iten third-col">
+                        quantidade
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="cart-product">
+                    <td class="product-identification">
+                        <img class="cart-product-image" src="imagens1/alakazam.png" alt="">
+                        <strong class="cart-product-title">Alakazan</strong>
+                    </td>
+                    <td><span class="cart-product-price">R$10,00</span></td>
+                    <td>
+                        <input class="product-qtd-input" type="number" value="2" min="0" step="1" size="800">
+                        <button class="remove-product-button">Remover</button>
+                    </td>
+                </tr>
+                <tr class="cart-product">
+                    <td class="product-identification">
+                        <img class="cart-product-image" src="imagens1/gengar.png" alt="">
+                        <strong class="cart-product-title">Gengar</strong>
+                    </td>
+                    <td><span class="cart-product-price">R$10,00</span></td>
+                    <td>
+                        <input class="product-qtd-input" type="number" value="1" min="0" step="1" size="800">
+                        <button type="button" class="remove-product-button">Remover</button>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="cart-total-container">
+                        <strong>Total</strong>
+                        <span>R$20,00</span>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    </main>
+</body>
+</html>
