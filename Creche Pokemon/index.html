@@ -1,3 +1,18 @@
+let radio = document.getElementsByClassName("manual-btn")
+var count = 1
+document.getElementById("radio1").checked = true
+
+setInterval(() => {
+    trocaimg()
+}, 5000)
+
+function trocaimg() {
+    count++
+    if (count > 3){
+        count = 1
+    }
+    document.getElementById("radio"+count).checked = true
+}
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -24,6 +39,51 @@
         </ul>
     </nav>
     <main>
+        section.slider{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+    overflow: hidden;
+}
+.slider-content {
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+.slider-content input {
+    display: none;
+}
+        <section class="slider">
+            <div class="slider-content">
+
+                <input type="radio" name="btn-radio" id="radio1">
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+
+                <div class="slide-box primeiro">
+                    <img src="imagens1/slider1.jpg" alt="">
+                </div>
+                <div class="slide-box">
+                    <img src="imagens1/slider2.jpg" alt="">
+                </div>
+                <div class="slide-box">
+                    <img src="imagens1/slider3.jpg" alt="">
+                </div>
+
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>
+        </section>
         <h2>Olá treinadores</h2>
         <div>
         <p><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At ab earum numquam autem asperiores mollitia doloribus, unde laborum eligendi! Illum non aliquid, id fugit qui voluptatum perspiciatis sint rerum reiciendis.</span><span>Laboriosam omnis dolor, repellat cupiditate facilis quasi eos minus molestias velit laudantium magnam quae, impedit natus, fugiat deserunt placeat? Saepe ratione doloremque, nostrum consequuntur expedita laboriosam facilis aliquam tempore quo?</span><span>Commodi, voluptatum blanditiis. Mollitia omnis voluptates numquam quam maiores voluptate asperiores optio amet recusandae ipsa! Tempore, repellendus quo consequatur tempora dolore nam dignissimos praesentium necessitatibus asperiores animi ab! Nostrum, facere.</span></p>
