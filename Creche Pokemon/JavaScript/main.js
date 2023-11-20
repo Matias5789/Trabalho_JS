@@ -1,3 +1,18 @@
+let radio = document.getElementsByClassName("manual-btn")
+var count = 1
+document.getElementById("radio1").checked = true
+
+setInterval(() => {
+    trocaimg()
+}, 5000)
+
+function trocaimg() {
+    count++
+    if (count > 3){
+        count = 1
+    }
+    document.getElementById("radio"+count).checked = true
+}
 const removeproduto = document.getElementsByClassName("remove-product-button")
 console.log(removeproduto)
 for (let i = 0; i < removeproduto.length; i++) {
