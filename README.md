@@ -12,6 +12,5 @@
 
 <h2 align="left">🖌️ Autores </h2>
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/125374128?v=4" width=115><br><strong>Mateus da Silva</strong> |
-:---: | :---: |
+|<img loading="lazy" src="https://avatars.githubusercontent.com/u/125374128?v=4" width=115><br><strong>Mateus da Silva</strong> |
 
