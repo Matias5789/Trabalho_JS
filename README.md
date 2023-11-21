@@ -12,7 +12,5 @@
 
 <h2 align="left">🖌️ Autores </h2>
 
-[<img loading="lazy" src="https://avatars.githubusercontent.com/u/125374128?v=4" width=115><br>| <strong>Mateus da Silva</strong> |](https://github.com/Matias5789)
-
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/146893811?v=4" width=115><br><sub>Pedro H. Possa<br>RA: 202102625</sub>](https://github.com/pedrohpossa) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/145297917?v=4" width=115><br><sub>Faber<br>RA: 202122739</sub>](https://github.com/faber-junior) |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/125374128?v=4" width=115><br><sub>Mateus da Silva</sub>](https://github.com/Matias5789) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/125374126?v=4" width=115><br><sub>Marina Duarte</sub>](https://github.com/maricamano) |
 :---: | :---: |
