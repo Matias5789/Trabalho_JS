@@ -48,11 +48,12 @@ div.container {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 325px;
     height: 300px;
-    border: solid 6px black;
+    border: solid 6px #f2bf58;
     border-radius: 10%;
     padding-bottom: 100px;
+    background-image: url(../imagens1/13.png);
 }
 footer {
     display: flex;
@@ -60,7 +61,7 @@ footer {
     align-items: center;
 }
 .arruma {
-    padding: 0 20px
+    padding: 0 30px
 }
 div.icones {
     display: flex;
@@ -225,4 +226,8 @@ section.slider{
 }
 #radio3:checked ~ .primeiro{
     margin-left: -50%;
+}
+/* estilização do index */
+h2#abaixo-slider {
+    margin-top: 70px;
 }
